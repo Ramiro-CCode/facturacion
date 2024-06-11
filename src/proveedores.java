@@ -50,8 +50,8 @@ public class proveedores {
             }
         });
         dtm.addColumn("nombre");
-        dtm.addColumn("dni");
-        dtm.addColumn("telefono");
+        dtm.addColumn("contacto");
+        dtm.addColumn("descripcion");
         proveedoresTable.setModel(dtm);
         dtm.addRow(new Object[]{"Nombre","Contacto","Descripción"});
 
