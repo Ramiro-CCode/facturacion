@@ -62,7 +62,7 @@ public class facturacion {
         dtm.addColumn("cantidad");
         dtm.addColumn("unitario");
         dtm.addColumn("total");
-        dtm.addRow(new Object[]{"Descripcion","Cantidad","Unitario","Total"});
+        dtm.addRow(new Object[]{"Descripcion","Cantidad","Precio unitario","Total"});
         facturaciontable.setModel(dtm);
 
         agregarButton.addActionListener(new ActionListener() {
