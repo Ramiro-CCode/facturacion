@@ -62,7 +62,7 @@ public class stock {
         dtm.addColumn("Precio unitario");
         dtm.addColumn("Notas");
         stocktable.setModel(dtm);
-        dtm.addRow(new Object[]{"Fecha","Código","Descripción","Cantidad","Precio","Notas"});
+        dtm.addRow(new Object[]{"Fecha","Código","Descripción","Cantidad","Precio unitario","Notas"});
 
         textField1.setText(String.valueOf(fecha));
 
